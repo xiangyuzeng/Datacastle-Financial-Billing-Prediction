@@ -152,4 +152,4 @@ for a in [173,45,38,50,139,164,82,120,190,101,110,189,44,167]:
     train2['top_15_freq'] +=train2['browse_'+str(a)+'_freq']
     train2['top_15_num'] +=train2['browse_'+str(a)+'_size']
 
-train2.to_csv('D:/SLaughter_code/python_feature/browse_feature_test.csv',index=None)
+#train2.to_csv('D:/SLaughter_code/python_feature/browse_feature_test.csv',index=None)
