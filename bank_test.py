@@ -245,7 +245,7 @@ test2 = pd.merge(test2, id_date_type0_mean, on='id')
 #放款前后个数
 def before_date_loan(df):
     return len(df[df<0])
-def after_date_loan(df):
+#def after_date_loan(df):
     return len(df[df>0])
 before_date_loan = test.groupby('id')['loan'].apply(before_date_loan).reset_index()
 before_date_loan.columns = ['id','before_date_loan']
